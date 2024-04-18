@@ -6,11 +6,11 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class DBConnection {
-    private static final String url = "jdbc:postgresql://ep-super-cake-a5cawzay.us-east-2.aws.neon.tech/devdb";
+    private static final String url = "";
     static Properties props = new Properties();
     static {
-        props.setProperty("user", "devdb_owner");
-        props.setProperty("password", "RSkPuf23lCKg");
+        props.setProperty("user", "");
+        props.setProperty("password", "");
         props.setProperty("ssl", "require");
     }
     
